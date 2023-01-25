@@ -5,8 +5,14 @@ const ratings = document.querySelectorAll("state-start__choose-button");
 const actualRating = document.getElementById("stars");
 
 submitButton.addEventListener("click", () => {
-  start.style.display = "none";
-  end.style.display = "flex";
+  if(actualRating.innerHTML != ".") {
+    start.style.display = "none";
+    end.style.display = "flex";
+  }
+  else {
+    start.style.display = "flex";
+    end.style.display = "none";
+  }
 });
 
 function myFunction1() {
