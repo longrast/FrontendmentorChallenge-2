@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: hsl(216deg, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+
+.content {
+  background-color: hsl(213deg, 19%, 18%);
+  width: 400px;
+  height: 50%;
+  margin: auto auto;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.content .state-start {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content .state-start .state-start__picture {
+  min-width: 50px;
+  min-height: 50px;
+  height: auto;
+  background-color: hsl(216deg, 12%, 8%);
+  border-radius: 100%;
+  margin: 5%;
+}
+.content .state-start .state-start__header {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+  margin: 0 5%;
+}
+.content .state-start .state-start__content {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  color: hsl(217deg, 12%, 63%);
+  margin: 5%;
+  font-size: 15px;
+}
+.content .state-start .state-start__choose {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 55px;
+  margin: 0 5%;
+}
+.content .state-start .state-start__choose-button {
+  min-width: 55px;
+  border-radius: 100%;
+  background-color: hsl(216deg, 12%, 8%);
+  color: hsl(217deg, 12%, 63%);
+  border: none;
+}
+.content .state-start .state-start__choose-button:hover {
+  background-color: hsl(216deg, 12%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+.content .state-start .state-start__choose-button:focus {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+.content .state-start .state-start__submit-button {
+  margin: auto 8%;
+  height: 10%;
+  border-radius: 50px 50px 50px 50px;
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  border: none;
+  font-family: "Overpass", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.content .state-start .state-start__submit-button:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+.content .state-end {
+  display: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .state-end .state-end__picture {
+  min-width: 50px;
+  min-height: 50px;
+  height: auto;
+  margin: 10% 0 5% 0;
+}
+.content .state-end .state-end__selected-stars {
+  padding: 5px 10px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: hsl(216deg, 12%, 8%);
+  color: hsl(25deg, 97%, 53%);
+}
+.content .state-end .state-end__header {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+  margin: 8% 10%;
+}
+.content .state-end .state-end__content {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  color: hsl(217deg, 12%, 63%);
+  margin: 0 10%;
+  font-size: 15px;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
