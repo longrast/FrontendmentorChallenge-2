@@ -41,6 +41,7 @@ Users should be able to:
 ## My process
 
 In the process of doing my work I have difficulties with event listeners. I would be very grateful if someone could show by an example of my work how to put event listeners for each button using array.forEach and addEventListener inside.
+I also tried to follow the bem standard, but I think I should attend a couple of training seminars.
 
 ### Built with
 
