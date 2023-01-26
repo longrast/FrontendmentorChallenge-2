@@ -16,7 +16,7 @@ body {
 
 .content {
   background-color: hsl(213deg, 19%, 18%);
-  width: 400px;
+  width: 375px;
   height: 50%;
   margin: auto auto;
   border-radius: 30px;
@@ -103,6 +103,8 @@ body {
   border-radius: 50px 50px 50px 50px;
   background-color: hsl(216deg, 12%, 8%);
   color: hsl(25deg, 97%, 53%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
 }
 .content .state-end .state-end__header {
   font-family: "Overpass", sans-serif;
