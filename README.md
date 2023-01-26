@@ -55,4 +55,4 @@ I'm still not comfortable with JS.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/longrast)
+- Frontend Mentor - [@longrast](https://www.frontendmentor.io/profile/longrast)
